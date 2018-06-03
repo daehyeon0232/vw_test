@@ -1,0 +1,65 @@
+*{padding: 0; margin: auto; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+a:link, a:active, a:visited, a:hover{text-decoration: none;}
+		a:link, a:active, a:visited{color: white;}
+
+		h2{font-weight: 800; font-size: 2.4em;}
+		h4{font-family: 'Nanum Gothic', sans-serif; line-height: 1.8em; font-size: 0.9em;}
+		h3{font-family: 'Nanum Gothic', sans-serif;  font-size: 1.3em; font-weight: 800;}
+
+
+
+#menu_box{position: absolute; width: 100%; height: 60px; background: grey; opacity: 0.4;}
+
+header{position: relative; width: 100%; height: 60px; max-width: 1600px; color: white;}
+header h1{font-family: 'Yatra One', cursive; height: 60px; line-height: 65px; float: left; font-size: 1.8em; padding:  0 0 0 10px;}
+
+header img{float: left; padding: 10px; width: 40px;}
+ul{list-style: none; float: right;}
+li{float: left; width: 180px; height: 60px; line-height: 60px; text-align: center;}
+li:hover {font-weight: 600; background: black; text-align: center;}
+#visit{font-weight: 600;}
+
+#box{position: absolute; width: 100%; height: 270px; background: black; color: white;}
+#box main{width: 1350px; padding: 170px 0 0 150px;}
+#box main h1{font-family: 'Abril Fatface', cursive;  font-size: 4.0em; letter-spacing: 2px; line-height: 1.0;}
+
+@media screen and (max-width: 425px){
+  #menu_box{height: 40px; background: grey;}
+
+  header h1{height: 40px; line-height: 40px; font-size: 1.2em; }
+  header img{padding: 8px; width: 26px;}
+  ul{width: 100%;}
+  li{width: 33.3%; height: 30px; line-height: 30px; font-size: 3.4%; }
+  #box{width: 100%; height: 260px}
+  #box main{width: 74%; padding: 120px 0 0 0}
+  #box main h1{font-size: 3.5em;}
+}
+
+#part1{width: 1050px; height: 900px; padding: 270px 0 0 0;}
+#part1 h3{padding: 0 0 15px 0;}
+#part1 img{width: 510px;}
+#part1 #text1{width: 750px; padding: 0 0 50px 0;}
+#part1 #section1{float: left; width: 510px; margin: 0 30px 50px 0;}
+#part1 #section2{float: left; width: 510px; margin: 0 0 50px 0;}
+ 
+@media screen and (max-width: 425px){
+	#part1{width: 100%; padding: 230px 0 0 0;}
+	#part1 h3{width: 78%; padding: 0 0 10px 0;}
+	#part1 h4{width: 78%;}
+	#part1 img{width: 100%;}
+	#part1 #text1{width: 78%;}
+	#part1 #section1{width: 100%;}
+	#part1 #section2{width: 100%;}
+	
+
+}
+
+
+footer{width: 100%; height: 30px; padding: 15px; background: black}
+footer section{width: 97%; max-width: 1310px;  color: white;}
+footer section article{float: left; width: 240px;}
+footer section article img{float: left; width: 30px; padding: 0 10px 0 0;}
+footer section article h4{float: left;  padding: 0 10px 0 0;}
+footer section #sns{float: right; width: 30px; padding: 0 13px 0 0}
+
+
